@@ -1,90 +1,274 @@
-<!doctype html>
-<html lang="en-US">
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+<!--<![endif]-->
 
 <head>
+
+  <title>Grude-PB Fest 2019</title>
+
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="description" content="Eventr - One Page Event Template">
+  <meta name="author" content="themecube">
 
-  <!-- Begin Jekyll SEO tag v2.4.0 -->
-  <title>.Net_PB | dotnetpb.github.io</title>
-  <meta name="generator" content="Jekyll v3.7.3" />
-  <meta property="og:title" content=".Net_PB" />
-  <meta property="og:locale" content="en_US" />
-  <meta name="description" content="A comunidade .NET_PB, tem como foco principal promover o networking e a troca de conhecimento."
-  />
-  <meta property="og:description" content="A comunidade .NET_PB, tem como foco principal promover o networking e a troca de conhecimento."
-  />
-  <link rel="canonical" href="https://dotnetpb.github.io/" />
-  <meta property="og:url" content="https://dotnetpb.github.io/" />
-  <meta property="og:site_name" content="dotnetpb.github.io" />
-  <script type="application/ld+json">
-{"name":"dotnetpb.github.io","description":"A comunidade .NET_PB, tem como foco principal promover o networking e a troca de conhecimento.","@type":"WebSite","url":"https://dotnetpb.github.io/","headline":".Net_PB","@context":"http://schema.org"}</script>
-  <!-- End Jekyll SEO tag -->
+  <!-- viewport settings -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
 
-  <link rel="stylesheet" href="/assets/css/style.css?v=8cb7da7a94a758e29573f176941d09d2d5949410">
-  <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ="
-    crossorigin="anonymous"></script>
-  <script src="/assets/js/respond.js"></script>
-  <link rel="stylesheet" href="css/reset.css">
-  <!-- CSS reset -->
-  <link rel="stylesheet" href="css/style.css">
-  <!-- Resource style -->
-  <link rel="stylesheet" href="css/demo.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  <!-- Demo style -->
-  <!--[if lt IE 9]>
-      <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
-  <!--[if lt IE 8]>
-    <link rel="stylesheet" href="/assets/css/ie.css">
-    <![endif]-->
-  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="css/bootstrap.css">
+
+  <link rel="stylesheet" href="css/pe-icon-7-stroke.css">
+  <link rel="stylesheet" href="css/helper.css">
+  <link rel="stylesheet" href="css/animate.min.css">
+  <link rel="stylesheet" href="css/font-awesome.css">
+  <link rel="stylesheet" href="css/font.css">
+  <link rel="stylesheet" href="css/salvattore.css">
+  <link rel="stylesheet" href="css/jquery.countdown.css">
+  <link rel="stylesheet" href="css/magnific-popup.css">
+  <link rel="stylesheet" href="css/jquery.mCustomScrollbar.css">
+  <link rel="stylesheet" href="css/owl.carousel.css">
+  <link rel="stylesheet" href="css/owl.theme.css">
+  <link rel="stylesheet" href="css/owl.transitions.css">
+  <link rel="stylesheet" href="css/revolution.css">
+  <link rel="stylesheet" href="css/revolution-extralayers.css">
+
+  <link rel="stylesheet" href="css/main.css">
+
+
+  <!-- Font -->
+  <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300' rel='stylesheet' type='text/css'>
+
+  <!-- Favicon -->
+  <link rel="shortcut icon" href="img/favicon.ico">
+
 
 </head>
 
 <body>
-            <p>
-              <img src="img/grudepb_fest_logo.jpeg" height="200px" ><br>
-              Restam <i><b id="temporizador"></b> </i> para este evento ocorrer.<BR>
-            </p>
-            <br>
-            <p>Ajuda também essa festa ser massa, inscreva-se aqui:<a href="">seja um voluntário</a> </p>
-            <hre
+
+  <!-- PRELOADING -->
+  <div id="preload">
+    <div class="preload">
+      <div class="spinner"></div>
+    </div>
+  </div>
+
+  <!-- NAVIGATION -->
+  <nav id="nav-primary" class="navbar navbar-custom" role="navigation">
+    <div class="container">
+
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#nav">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a href="index.html"><img src="img/logogrude-white.png" alt="logo"></a>
+      </div>
+
+      <div class="collapse navbar-collapse" id="nav">
+        <ul class="nav navbar-nav navbar-right uppercase">
+          <li><a data-toggle="elementscroll" href="#info">Evento</a></li>
+          <li><a
+              href="https://docs.google.com/forms/d/e/1FAIpQLScCCqps3AY1Y0LWJPuelgLcQaVayIyKwLij_2hzkmwq-kb6Yw/formResponse">Seja
+              Voluntário</a></li>
+          <!--<li><a data-toggle="elementscroll" href="#speakers">Palestras</a></li>
+          <li><a data-toggle="elementscroll" href="#program">Program</a></li>
+          <li><a data-toggle="elementscroll" href="#venue">Venue</a></li>
+          <li><a data-toggle="elementscroll" href="#register">Register</a></li>
+          <li><a data-toggle="elementscroll" href="#gallery">Gallery</a></li>
+          <li><a data-toggle="elementscroll" href="#sponsors">Sponsors</a></li>
+          <li><a data-toggle="elementscroll" href="#footer">Contact</a></li>-->
+        </ul>
+      </div>
+
+    </div>
+  </nav>
+
+  <!-- FULLSCREEN SLIDER -->
+  <div class="tp-banner-container">
+    <div class="tp-banner">
+      <ul>
+        <!-- SLIDE 1 -->
+        <li data-transition="slidevertical" data-slotamount="1" data-masterspeed="1000"
+          data-thumb="img/slide_thumb_1.jpg" data-saveperformance="off" data-title="Slide">
+          <!-- MAIN IMAGE -->
+          <img src="img/img01.jpg" alt="fullslide1" data-bgposition="center top" data-bgfit="cover"
+            data-bgrepeat="no-repeat">
+          <!-- LAYERS -->
+
+          <!-- LAYER NR. 1 -->
+          <div class="tp-caption light_heavy_70_shadowed lfb ltt tp-resizeme" data-x="center" data-hoffset="250"
+            data-y="center" data-voffset="-70" data-speed="600" data-start="800" data-easing="Power4.easeOut"
+            data-splitin="none" data-splitout="none" data-elementdelay="0.01" data-endelementdelay="0.1"
+            data-endspeed="500" data-endeasing="Power4.easeIn"
+            style="z-index: 2; max-width: auto; max-height: auto; white-space: nowrap;">Seja Voluntario
+          </div>
+
+          <!-- LAYER NR. 2 -->
+          <div class="tp-caption light_medium_30_shadowed lfb ltt tp-resizeme" data-x="center" data-hoffset="205"
+            data-y="center" data-voffset="-10" data-speed="600" data-start="900" data-easing="Power4.easeOut"
+            data-splitin="none" data-splitout="none" data-elementdelay="0.01" data-endelementdelay="0.1"
+            data-endspeed="500" data-endeasing="Power4.easeIn"
+            style="z-index: 3; max-width: auto; max-height: auto; white-space: nowrap;">30 de Novembro de 2019, Unipê.
+          </div>
+
+
+        </li>
+
+      </ul>
+      <div class="tp-bannertimer"></div>
+    </div>
+  </div>
+
+  <!-- HIGHLIGHT -->
+  <section id="highlight">
+    <div class="container-fluid">
+      <div class="row">
+
+        <div id="left" class="left col-lg-9 col-md-8 text-right">
+          <h2>Participe da conferência</h2>
+          <p>Lorem ipsum dolor sit amet
+        </div>
+
+        <div id="right" class="col-lg-3 col-md-4 text-left">
+          <div id="countdown"></div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- INFO -->
+  <section id="info">
+    <div class="container">
+      <div class="row">
+
+        <div class="col-lg-12 text-center">
+          <h1>O que é?</h1>
+          <p class="lead">Evento reunindo o ecossistema de comunidades tecnológicas da Paraíba, principalmente as que
+            fazem parte do GrudePB, com
+            o grande objetivo de fomentar a cultura do fazer comunidades.</p>
+        </div>
+        <!--
+        <div class="col-lg-10 col-lg-offset-1 col-md-12 text-center">
+          <div class="row">
+
+            <div class="feature col-lg-4 col-md-4 col-sm-4">
+              <i class="pe-4x pe-7s-refresh-2"></i>
+              <h4>New Topics</h4>
+              <p>Sed facilisis justo risus viverra vulputate. Mauris vel ipsum diam condimentum tempus purus.</p>
+            </div>
+
+            <div class="feature col-lg-4 col-md-4 col-sm-4">
+              <i class="pe-4x pe-7s-micro"></i>
+              <h4>2 Keynote Speakers</h4>
+              <p>Sed facilisis justo risus viverra vulputate. Mauris vel ipsum diam condimentum tempus purus.</p>
+            </div>
+
+            <div class="feature col-lg-4 col-md-4 col-sm-4">
+              <i class="pe-4x pe-7s-headphones"></i>
+              <h4>Multilingual Support</h4>
+              <p>Sed facilisis justo risus viverra vulputate. Mauris vel ipsum diam condimentum tempus purus.</p>
+            </div>
+
+          </div>
+        </div>
+        -->
+
+      </div>
+    </div>
+  </section>
+
+
+
+  <!-- google map -->
+  <div id="gmap_canvas"></div>
+
+  <!-- FOOTER -->
+  <footer id="footer">
+    <div class="container">
+      <div class="row">
+
+        <div class="col-lg-3 col-md-3 col-sm-6">
+          <h4 class="uppercase">O Evento</h4>
+          <p class="small">Evento reunindo o ecossistema de comunidades tecnológicas da Paraíba, principalmente as que
+            fazem parte do GrudePB, com
+            o grande objetivo de fomentar a cultura do fazer comunidades.</p>
+        </div>
+
+        <div class="col-lg-3 col-md-3 col-sm-6">
+
+        </div>
+
+
+        <div class="col-lg-6 col-md-6 col-sm-12">
+
+
+        </div>
+
+      </div>
+    </div>
+  </footer>
+
+  <!-- SUBFOOTER -->
+  <div class="subfooter">
+    <div class="container">
+      <div class="row">
+
+        <div class="col-lg-12">
+          <ul class="list-unstyled list-inline pull-right uppercase">
+            <li><a href="#">Terms</a></li>
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#">FAQ</a></li>
+            <li><a href="#">Press Kit</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+
+
+  <script src="js/jquery-1.11.1.min.js"></script>
+  <script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script>
+  <script src="js/jquery.themepunch.tools.min.js"></script>
+  <script src="js/jquery.themepunch.revolution.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/jquery.sticky.js"></script>
+  <script src="js/jquery.magnific-popup.min.js"></script>
+  <script src="js/salvattore.js"></script>
+  <script src="js/jquery.countdown.js"></script>
+  <script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
+  <script src="js/waypoints.min.js"></script>
+  <script src="js/jquery.counterup.min.js"></script>
+  <script src="js/owl.carousel.min.js"></script>
+  <script src="js/retina.js"></script>
 
   <script src="js/main.js"></script>
-  <!-- Resource JavaScript -->
 
   <script>
-      // Set the date we're counting down to
-      var countDownDate = new Date("Nov 30, 2019 08:30:00").getTime();
-      
-      // Update the count down every 1 second
-      var x = setInterval(function() {
-      
-          // Get todays date and time
-          var now = new Date().getTime();
-          
-          // Find the distance between now an the count down date
-          var distance = countDownDate - now;
-          
-          // Time calculations for days, hours, minutes and seconds
-          var days = Math.floor(distance / (1000 * 60 * 60 * 24));
-          var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-          var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-          var seconds = Math.floor((distance % (1000 * 60)) / 1000);
-          
-          // Output the result in an element with id="temporizador"
-          document.getElementById("temporizador").innerHTML = days + "d " + hours + "h "
-          + minutes + "m " + seconds + "s ";
-          
-          // If the count down is over, write some text 
-          if (distance < 0) {
-              clearInterval(x);
-              document.getElementById("temporizador").innerHTML = "EXPIRED";
-          }
-      }, 1000);
-      </script>
-  
+    (function (i, s, o, g, r, a, m) {
+      i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+        (i[r].q = i[r].q || []).push(arguments)
+      }, i[r].l = 1 * new Date(); a = s.createElement(o),
+        m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', 'http://www.google-analytics.com/analytics.js', 'ga');
+
+    ga('create', 'UA-XXXXXXX-XX', 'yourdomain.com');
+    ga('send', 'pageview');
+
+  </script>
+
+
 </body>
 
 </html>

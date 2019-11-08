@@ -1,6 +1,14 @@
 jQuery(document).ready(function($) {
    
    'use strict';
+
+	$.countdown.regional['pt-BR'] = {
+		labels: ['Anos', 'Meses', 'Semanas', 'Dias', 'Horas', 'Minutos', 'Segundos'],
+		labels1: ['Anos', 'Meses', 'Semanas', 'Dias', 'Horas', 'Minutos', 'Segundos'],
+		compactLabels: ['a', 'm', 's', 'd'],
+		timeSeparator: ':', isRTL: false
+	};
+	$.countdown.setDefaults($.countdown.regional['pt-BR']);
    
    //REV SLIDER
    jQuery('.tp-banner').show().revolution(
@@ -101,6 +109,7 @@ jQuery(document).ready(function($) {
 	//COUNTDOWN TIMER
 	var newYear = new Date(); 
 	newYear = new Date(newYear.getFullYear() + 1, 1 - 1, 1); 
+	console.log({ until: new Date(2019, 10, 30) });
     $('#countdown').countdown({until: new Date(2019, 10, 30)}); // enter event day 
     
     $('#removeCountdown').toggle(

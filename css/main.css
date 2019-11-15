@@ -566,12 +566,12 @@ a {
 
 /* VENUE */
 
-#venue {
+#local {
 	padding-top:0;
 	padding-bottom:110px;
 }
 
-#venue .venue {
+#local .local {
 	background-image: url(../img/bg-venue.png);
 	background-repeat: no-repeat;
 	background-position: center;
@@ -584,7 +584,7 @@ a {
 	width:100%;
 }
 
-#venue .venue .venue-inner {
+#local .local .local-inner {
 	color:#b0b0b0;
 	background:rgba(0,0,0, 0.7);
 	display:table-cell;
@@ -592,12 +592,12 @@ a {
 	
 }
 
-.venue-inner h2 {
+.local-inner h2 {
 	color:#ffffff;
 	margin-top:0;
 }
 
-#venue h2:after {
+#local h2:after {
 	content: "";
   	display: block;
   	width: 60px;
@@ -607,11 +607,11 @@ a {
   	margin-bottom: 15px;
 }
 
-#venue h3 {
+#local h3 {
 	margin-top:10px;
 }
 
-#venue h3:after {
+#local h3:after {
 	content: "";
   	display: block;
   	width: 60px;
@@ -621,19 +621,19 @@ a {
   	margin-bottom: 15px;
 }
 
-.venue-inner h4 {
+.local-inner h4 {
 	color:#ffffff;
 }
 
-#venue i {
+#local i {
 	color:#fac42b;
 }
 
-.venue-inner .lead {
+.local-inner .lead {
 	color:#b0b0b0;
 }
 
-.venue-info {
+.local-info {
 	margin-bottom:45px;
 }
 

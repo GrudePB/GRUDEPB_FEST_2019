@@ -858,7 +858,7 @@ a {
 }
 
 .sponsor {
-  border: 2px solid #fac42b;
+  /*border: 2px solid #fac42b;*/
   margin: 0 5px;
   padding: 10px;
   text-align: center;
